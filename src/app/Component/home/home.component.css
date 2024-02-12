@@ -1,0 +1,22 @@
+.container {
+    background-image: url("../../../assets/cake-wallpaper-1.jpg");
+    /* background-size: cover; */
+    height: 300px;
+    min-width: 100%;
+    display: block;
+    /* float: left; */
+    background-color: #8E6944;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid #8E6944;
+    margin: 0;
+    /* padding:0; */
+    box-sizing: border-box;
+    /* position:fixed; */
+    left: 0;
+    right: 0;
+  }
+
+.container-blend {
+    background-blend-mode: screen;
+}
