@@ -1,6 +1,6 @@
 .container {
     /* background-size: cover; */
-    height: 350px;
+    min-height: 350px;
     min-width: 100%;
     display: block;
     /* float: left; */
@@ -30,5 +30,9 @@
 
 #testimonials {
     background-image: url("../../../assets/handwritings.jpg");
-    height: 500px;
+    /* height: 500px; */
+}
+
+#custom-cake {
+    background-image: url("../../../assets/custom-cake.jpg");
 }
