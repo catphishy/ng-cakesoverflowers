@@ -57,7 +57,7 @@ import { Component } from '@angular/core';
     <div class="container container-blend p-5" id="testimonials">
       <h3 class="text-center text-secondary-emphasis mt-3">Testimonials</h3>
       <p class="text-center text-secondary-emphasis m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p class="text-center text-secondary"><strong>- JOHN DOE</strong></p>
+      <p class="text-center text-primary"><strong>- JOHN DOE</strong></p>
     </div>
     <div class="position-relative container container-blend p-5" id="custom-cake">
       <h2 class="text-center text-secondary-emphasis mt-2">Customize your own cake</h2>
@@ -115,8 +115,6 @@ import { Component } from '@angular/core';
           </div>
         </div>
       </div>
-      
-      
     </section>
   `,
   styleUrl: './home.component.css'
