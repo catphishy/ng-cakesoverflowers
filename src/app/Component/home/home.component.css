@@ -1,7 +1,6 @@
 .container {
-    background-image: url("../../../assets/cake-wallpaper-1.jpg");
     /* background-size: cover; */
-    height: 300px;
+    height: 350px;
     min-width: 100%;
     display: block;
     /* float: left; */
@@ -19,4 +18,17 @@
 
 .container-blend {
     background-blend-mode: screen;
+}
+
+#main-cover {
+    background-image: url("../../../assets/cake-wallpaper-1.jpg");
+}
+
+#cakes-cover {
+    background-image: url("../../../assets/cake-wallpaper-2.jpg");
+}
+
+#testimonials {
+    background-image: url("../../../assets/handwritings.jpg");
+    height: 500px;
 }
