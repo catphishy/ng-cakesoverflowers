@@ -18,15 +18,22 @@ import { PastryService } from '../../Service/pastry.service';
     PastryComponent
   ],
   template: `
-    <section class="p-5">
-      <h3 class="text-center text-secondary-emphasis mb-3">Cakes</h3>
+    <div class="container p-5">
+      <h2 class="text-center align-middle mb-3" style="color: #FFFCF8; font-family:Courgette, cursive;">Cakes</h2>
+    </div>
+    <section class="p-5 pt-2">
       <div class="row row-cols-auto">
         <app-cake 
           *ngFor="let cake of cakeList"
           [cake]="cake">
         </app-cake>
       </div>
-      <h3 class="text-center text-secondary-emphasis mt-3 mb-3">Cookies and Pastries</h3>
+      
+    </section>
+    <div class="container p-5">
+      <h2 class="text-center align-middle mb-3" style="color: #FFFCF8; font-family:Courgette, cursive;">Cookies and Pastries</h2>
+    </div>
+    <section class="p-5 pt-2">
       <div class="row row-cols-auto">
         <app-pastry 
           *ngFor="let pastry of pastryList"
@@ -34,11 +41,12 @@ import { PastryService } from '../../Service/pastry.service';
         </app-pastry>
       </div>
     </section>
+      
   `,
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
-  readonly baseUrl = '../../assets';
+  // readonly baseUrl = '../../assets';
 
   // cakeList: Cake[] = [
   //   {

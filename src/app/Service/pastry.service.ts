@@ -11,35 +11,31 @@ export class PastryService {
   pastryList: Pastry[] = [
     {
       id: 12,
-      name: "Carrot Walnut Cake",
-      description: "lorem ipsum",
-      photo: `${this.baseUrl}/carrot-walnut.jpg`,
-      pieces: 6,
-      price: 320
+      name: "Chocolate Crinkles",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      photo: `${this.baseUrl}/chocolate-crinkles.jpg`,
+      price: 100
     },
     {
       id: 13,
-      name: "Blueberry Cheesecake",
-      description: "lorem ipsum",
-      photo: `${this.baseUrl}/blueberry-cheesecake.jpg`,
-      pieces: 6,
-      price: 320
+      name: "Ensaymada",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      photo: `${this.baseUrl}/ensaymada.jpg`,
+      price: 100
+    },
+    {
+      id: 13,
+      name: "Egg Tart",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      photo: `${this.baseUrl}/egg-tart.jpg`,
+      price: 100
     },
     {
       id: 14,
-      name: "Strawberry Tres Leches",
-      description: "lorem ipsum",
-      photo: `${this.baseUrl}/strawberry-tres-leches.jpg`,
-      pieces: 6,
-      price: 320
-    },
-    {
-      id: 15,
-      name: "Strawberry Tres Leches",
-      description: "lorem ipsum",
-      photo: `${this.baseUrl}/strawberry-tres-leches.jpg`,
-      pieces: 6,
-      price: 320
+      name: "Oatmeal Cookies",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      photo: `${this.baseUrl}/oatmeal-cookies.jpg`,
+      price: 100
     },
   ];
 

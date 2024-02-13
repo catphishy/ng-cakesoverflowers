@@ -10,10 +10,17 @@ export class CakeService {
 
   cakeList: Cake[] = [
     {
-      id: 22,
+      id: 21,
       name: "Carrot Walnut Cake",
       description: "A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping",
       photo: `${this.baseUrl}/carrot-walnut.jpg`,
+      price: 320
+    },
+    {
+      id: 22,
+      name: "Matcha Tres Leches",
+      description: "A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping",
+      photo: `${this.baseUrl}/matcha-tres-leches.jpg`,
       price: 320
     },
     {
@@ -21,7 +28,7 @@ export class CakeService {
       name: "Blueberry Cheesecake",
       description: "A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping",
       photo: `${this.baseUrl}/blueberry-cheesecake.jpg`,
-      price: 320
+      price: 450
     },
     {
       id: 24,
@@ -30,6 +37,34 @@ export class CakeService {
       photo: `${this.baseUrl}/strawberry-tres-leches.jpg`,
       price: 320
     },
+    {
+      id: 25,
+      name: "Strawberry Cheesecake",
+      description: "A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping",
+      photo: `${this.baseUrl}/strawberry-cheesecake.jpg`,
+      price: 450
+    },
+    {
+      id: 27,
+      name: "Limoncello Tiramisu",
+      description: "A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping",
+      photo: `${this.baseUrl}/limoncello-tiramisu.jpg`,
+      price: 320
+    },
+    {
+      id: 28,
+      name: "Blueberry Lemon Cake",
+      description: "A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping",
+      photo: `${this.baseUrl}/blueberry-lemon.jpg`,
+      price: 320
+    },
+    {
+      id: 29,
+      name: "Banoffee Pie",
+      description: "A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping",
+      photo: `${this.baseUrl}/banoffee-pie.jpg`,
+      price: 320
+    }
   ];
   
 

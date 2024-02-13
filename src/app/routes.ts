@@ -4,6 +4,7 @@ import { HomeComponent } from "./Component/home/home.component";
 import { MenuComponent } from "./Component/menu/menu.component";
 import { CakeDetailsComponent } from "./Component/cake-details/cake-details.component";
 import { PastryDetailsComponent } from "./Component/pastry-details/pastry-details.component";
+import { CustomizeComponent } from "./Component/customize/customize.component";
 
 const routeConfig: Routes = [
     {
@@ -25,6 +26,11 @@ const routeConfig: Routes = [
         path: 'pastry/:id',
         component: PastryDetailsComponent,
         title: 'Pastry Details'
+    },
+    {
+        path: 'customize',
+        component: CustomizeComponent,
+        title: 'Customize Cake'
     }
 ];
 

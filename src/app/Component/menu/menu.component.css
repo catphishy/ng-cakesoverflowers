@@ -1,0 +1,15 @@
+.container {
+    /* background-size: cover; */
+    height: 120px;
+    min-width: 100%;
+    display: block;
+    /* float: left; */
+    background-color: #c1a2bf;
+    /* border-bottom: 3px solid #8E6944; */
+    margin: 0;
+    /* padding:0; */
+    box-sizing: border-box;
+    /* position:fixed; */
+    left: 0;
+    right: 0;
+}

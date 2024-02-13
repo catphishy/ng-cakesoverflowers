@@ -17,20 +17,20 @@ import { CakeComponent } from './Component/cake/cake.component';
     <main>
       <nav class="navbar navbar-expand-lg" style="background-color: #F6EEE0; border-bottom: 3px solid #8E6944">
         <div class="container-fluid">
-          <a class="navbar-brand" [routerLink]="['/']"><img src="./assets/cakesoverflowers.png"></a>
+          <a class="navbar-brand me-4" [routerLink]="['/']"><img src="./assets/logo.png" style="height:50px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link" [routerLink]="['/']">Home</a>
+                <a class="nav-link text-secondary-emphasis" [routerLink]="['/']">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" [routerLink]="['/menu']">Menu</a>
+                <a class="nav-link text-secondary-emphasis" [routerLink]="['/menu']">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" [routerLink]="['/']">Customize</a>
+                <a class="nav-link text-secondary-emphasis" [routerLink]="['/customize']">Customize</a>
               </li>
             </ul>
             <div class="d-flex">

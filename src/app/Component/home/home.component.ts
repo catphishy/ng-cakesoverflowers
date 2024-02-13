@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterModule
+  ],
   template: `
     <div class="container container-blend p-5" id="main-cover">
       <h3 class="text-secondary-emphasis">Great Taste in every bite</h3>
@@ -17,7 +20,7 @@ import { Component } from '@angular/core';
             <img src="../../../assets/blueberry-cheesecake.jpg" style="object-fit: fill">
             <h5 class="text-center text-secondary-emphasis mt-2">Blueberry Cheesecake</h5>
             <p class="text-center text-secondary-emphasis"><small>A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping</small></p>
-            <button type="button" class="btn btn-primary">View</button>          
+            <a [routerLink]="['/cake', 23]" type="button" class="btn btn-primary">View</a>          
           </div>
         </div>
         <div class="col-md-3">
@@ -25,7 +28,7 @@ import { Component } from '@angular/core';
             <img src="../../../assets/carrot-walnut.jpg">
             <h5 class="text-center text-secondary-emphasis mt-2">Carrot Walnut Cake</h5>
             <p class="text-center text-secondary-emphasis"><small>A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping</small></p>
-            <button type="button" class="btn btn-primary">View</button>  
+            <a [routerLink]="['/cake', 21]" type="button" class="btn btn-primary">View</a>  
           </div>
         </div>
         <div class="col-md-3">
@@ -33,7 +36,7 @@ import { Component } from '@angular/core';
             <img src="../../../assets/strawberry-tres-leches.jpg">
             <h5 class="text-center text-secondary-emphasis mt-2">Strawberry Tres Leches</h5>
             <p class="text-center text-secondary-emphasis"><small>A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping</small></p>
-            <button type="button" class="btn btn-primary">View</button>  
+            <a [routerLink]="['/cake', 24]" type="button" class="btn btn-primary">View</a>  
           </div>
         </div>
         <div class="col-md-3">
@@ -41,7 +44,7 @@ import { Component } from '@angular/core';
             <img src="../../../assets/matcha-tres-leches.jpg">
             <h5 class="text-center text-secondary-emphasis mt-2">Matcha Tres Leches</h5>
             <p class="text-center text-secondary-emphasis"><small>A buttery graham cracker crust, a creamy cheesecake center, and a tangy blueberry topping</small></p>
-            <button type="button" class="btn btn-primary">View</button>
+            <a [routerLink]="['/cake', 22]" type="button" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -51,7 +54,7 @@ import { Component } from '@angular/core';
       <br>
       <h6 class="text-center lead text-secondary-emphasis">Made for something special</h6>
       <div class="position-absolute top-50 start-50 translate-middle mt-4">
-        <button type="button" class="btn btn-primary">Order Now</button>
+        <a type="button" class="btn btn-primary" [routerLink]="['/menu']">Order Now</a>
       </div>
     </div>
     <div class="container container-blend p-5" id="testimonials">
@@ -64,7 +67,7 @@ import { Component } from '@angular/core';
       <br>
       <h6 class="text-center lead text-secondary-emphasis">Let us bake your ideas to life</h6>
       <div class="position-absolute top-50 start-50 translate-middle mt-4">
-        <button type="button" class="btn btn-primary">Order Now</button>
+        <a type="button" class="btn btn-primary" [routerLink]="['/customize']">Order Now</a>
       </div>
     </div>
     

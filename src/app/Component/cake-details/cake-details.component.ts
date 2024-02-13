@@ -29,8 +29,8 @@ import { Cake } from '../../Interface/cake';
 
             <form [formGroup]="addForm" (submit)="addToCart()">
               <div class="form-group mb-4">
-                <input id="name" value="cake" hidden>
-                <input id="price" value="234" hidden>
+                <input id="name" value="cake?.name" hidden>
+                <input id="price" value="cake?.price" hidden>
                 <h6 class="text-secondary-emphasis">Quantity</h6>
                 <input class="text-center text-secondary-emphasis form-control form-control-lg" type="number" value="1" id="quantity" style="width:72px">
               </div>
