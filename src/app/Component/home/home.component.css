@@ -35,4 +35,5 @@
 
 #custom-cake {
     background-image: url("../../../assets/custom-cake.jpg");
+    border-bottom: 0px;
 }

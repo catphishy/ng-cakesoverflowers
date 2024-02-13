@@ -67,55 +67,7 @@ import { Component } from '@angular/core';
         <button type="button" class="btn btn-primary">Order Now</button>
       </div>
     </div>
-    <section class="p-5">
-      <div class="row">
-        <div class="col-md-4 p-4 pb-0">
-          <div class="card card-body border border-0 mb-3 p-6" >
-            <h4 class="text-secondary-emphasis mb-3">NEWSLETTER</h4>
-            <form>
-              <div class="form-group mb-3">
-                <p>Stay updated with our news and promos</p>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              </div>
-              <button type="submit" class="btn btn-primary">Subscribe</button>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-4 p-4 pb-0">
-          <div class="card card-body border border-0 mb-3 p-6" >
-            <h4 class="text-secondary-emphasis mb-3">CONNECT</h4>
-            <a class="mb-2">Home</a>
-            <a class="mb-2">Shop</a>
-            <a class="mb-2">Customize</a>
-          </div>
-        </div>
-        <div class="col-md-4 p-4 pb-0" style="">
-          <div class="card card-body border border-0 mb-3 p-6" style="object-fit: cover;">
-            <h4 class="text-secondary-emphasis mb-3">EXPLORE</h4>
-            <div class="mb-2">
-              <img src="../../../assets/contact-solid-24.png" style="width:22px; height:22px; display: inline-block; vertical-align: middle;">
-              <span style="display: inline-block; vertical-align: middle;">&nbsp;&nbsp;Contact Us</span>
-            </div>
-            <div class="mb-2">
-              <img src="../../../assets/envelope-solid-24.png" style="width:22px; height:22px; display: inline-block; vertical-align: middle;">
-              <span style="display: inline-block; vertical-align: middle;">&nbsp;&nbsp;cakesoverflowers&#64;gmail.com</span>
-            </div>
-            <div class="mb-2">
-              <img src="../../../assets/phone-solid-24.png" style="width:22px; height:22px; display: inline-block; vertical-align: middle;">
-              <span style="display: inline-block; vertical-align: middle;">&nbsp;&nbsp;(63)912 345 6789</span>
-            </div>
-            <div class="mb-2">
-              <img src="../../../assets/instagram-alt-logo-24.png" style="width:22px; height:22px; display: inline-block; vertical-align: middle;">
-              <span style="display: inline-block; vertical-align: middle;">&nbsp;&nbsp;cakes.over.flowers</span>
-            </div>
-            <div class="mb-2">
-              <img src="../../../assets/time-five-solid-24.png" style="width:22px; height:22px; display: inline-block; vertical-align: middle;">
-              <span style="display: inline-block; vertical-align: middle;">&nbsp;&nbsp;9AM - 10PM (GMT +8)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
   `,
   styleUrl: './home.component.css'
 })

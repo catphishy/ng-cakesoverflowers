@@ -2,8 +2,8 @@ import { Routes } from "@angular/router";
 
 import { HomeComponent } from "./Component/home/home.component";
 import { MenuComponent } from "./Component/menu/menu.component";
-import { CakeComponent } from "./Component/cake/cake.component";
-import { PastryComponent } from "./Component/pastry/pastry.component";
+import { CakeDetailsComponent } from "./Component/cake-details/cake-details.component";
+import { PastryDetailsComponent } from "./Component/pastry-details/pastry-details.component";
 
 const routeConfig: Routes = [
     {
@@ -18,12 +18,12 @@ const routeConfig: Routes = [
     },
     {
         path: 'cake/:id',
-        component: CakeComponent,
+        component: CakeDetailsComponent,
         title: 'Cake Details'
     },
     {
         path: 'pastry/:id',
-        component: PastryComponent,
+        component: PastryDetailsComponent,
         title: 'Pastry Details'
     }
 ];
