@@ -1,6 +1,8 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { CustomizeService } from '../../Service/customize.service';
+
 import { BaseComponent } from '../base/base.component';
 import { Base } from '../../Interface/base';
 import { BaseService } from '../../Service/base.service';
@@ -76,13 +78,13 @@ import { AddonService } from '../../Service/addon.service';
         </div>
         <div class="row pt-3">
           <div class="col-8">
-            <p class="text-secondary-emphasis">Total:</p>
+            <p class="text-secondary-emphasis">Amount:</p>
           </div>
           <div class="col-4">
-            <p class="text-secondary-emphasis">&#x20B1;<span id="total">--</span></p>
+            <p class="text-secondary-emphasis">&#x20B1;<span id="amount">--</span></p>
           </div>
         </div>
-        <button type="button" class="btn btn-secondary btn-lg mt-3" style="width:200px">Add to Cart</button>
+        <button (click)="addToCart()" type="button" class="btn btn-secondary btn-lg mt-3" style="width:200px">Add to Cart</button>
       </div>
       
     </section>
@@ -90,6 +92,8 @@ import { AddonService } from '../../Service/addon.service';
   styleUrl: './customize.component.css'
 })
 export class CustomizeComponent {
+  customizeService: CustomizeService = inject(CustomizeService);
+
   baseList: Base[] = [];
   baseService: BaseService = inject(BaseService);
 
@@ -98,6 +102,10 @@ export class CustomizeComponent {
 
   addonList: Addon[] = [];
   addonService: AddonService = inject(AddonService);
+
+  addToCart() {
+    this.customizeService.addToCart();
+  }
 
   constructor() {
     this.baseList = this.baseService.getAllBases();

@@ -1,0 +1,1 @@
+export let customize: number[] = [0,0,0,0];
