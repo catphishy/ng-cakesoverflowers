@@ -5,6 +5,9 @@ import { MenuComponent } from "./Component/menu/menu.component";
 import { CakeDetailsComponent } from "./Component/cake-details/cake-details.component";
 import { PastryDetailsComponent } from "./Component/pastry-details/pastry-details.component";
 import { CustomizeComponent } from "./Component/customize/customize.component";
+import { LoginComponent } from "./Component/login/login.component";
+import { RegisterComponent } from "./Component/register/register.component";
+import { CartComponent } from "./Component/cart/cart.component";
 
 const routeConfig: Routes = [
     {
@@ -31,6 +34,21 @@ const routeConfig: Routes = [
         path: 'customize',
         component: CustomizeComponent,
         title: 'Customize Cake'
+    },
+    {
+        path: 'login',
+        component: LoginComponent,
+        title: 'Login'
+    },
+    {
+        path: 'register',
+        component: RegisterComponent,
+        title: 'Register'
+    },
+    {
+        path: 'cart',
+        component: CartComponent,
+        title: 'Cart'
     }
 ];
 

@@ -14,3 +14,17 @@
     left: 0;
     right: 0;
 }
+
+.form-card {
+    background-color: #EBE0D0;
+    width: 30rem;
+    padding: 3rem;
+}
+
+@media (max-width: 499px) {
+    .form-card {
+        background-color: transparent;
+        width: 100%;
+        padding: 2rem 0rem;
+    }    
+  }

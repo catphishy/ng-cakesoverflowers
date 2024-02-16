@@ -36,10 +36,10 @@ import { CakeComponent } from './Component/cake/cake.component';
             <div class="d-flex">
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="./assets/user-solid-24.png" alt="user" style="width:22px; height:22px"></a>
+                  <a class="nav-link" [routerLink]="['/login']"><img src="./assets/user-solid-24.png" alt="user" style="width:22px; height:22px"></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="./assets/cart-solid-24.png" alt="cart" style="width:22px; height:22px"></a>
+                  <a class="nav-link" [routerLink]="['/cart']"><img src="./assets/cart-solid-24.png" alt="cart" style="width:22px; height:22px"></a>
                 </li>
               </ul>
             </div>
@@ -68,9 +68,9 @@ import { CakeComponent } from './Component/cake/cake.component';
         <div class="col-md-4 p-4 pb-0">
           <div class="card card-body border border-0 mb-3 p-6" >
             <h4 class="text-secondary-emphasis mb-3">CONNECT</h4>
-            <a class="mb-2">Home</a>
-            <a class="mb-2">Shop</a>
-            <a class="mb-2">Customize</a>
+            <a class="mb-2" [routerLink]="['/']">Home</a>
+            <a class="mb-2" [routerLink]="['/menu']">Menu</a>
+            <a class="mb-2" [routerLink]="['/customize']">Customize</a>
           </div>
         </div>
         <div class="col-md-4 p-4 pb-0" style="">
