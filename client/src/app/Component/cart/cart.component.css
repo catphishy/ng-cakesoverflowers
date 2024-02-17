@@ -65,6 +65,7 @@ input#quantity.text-center.text-secondary-emphasis.form-control {
         width:130px;
         height: 10px;
         bottom: 2rem;
+        /* margin-bottom: 1rem; */
     }
 
     button#button-addon2.btn.btn-primary {
