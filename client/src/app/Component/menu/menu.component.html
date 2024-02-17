@@ -1,0 +1,23 @@
+<div class="container p-5">
+    <h2 class="text-center align-middle mb-3" style="color: #FFFCF8; font-family:Courgette, cursive;">Cakes</h2>
+  </div>
+  <section class="p-5 pt-2">
+    <div class="row row-cols-auto">
+      <app-cake 
+        *ngFor="let cake of cakeList"
+        [cake]="cake">
+      </app-cake>
+    </div>
+    
+  </section>
+  <div class="container p-5">
+    <h2 class="text-center align-middle mb-3" style="color: #FFFCF8; font-family:Courgette, cursive;">Cookies and Pastries</h2>
+  </div>
+  <section class="p-5 pt-2">
+    <div class="row row-cols-auto">
+      <app-pastry 
+        *ngFor="let pastry of pastryList"
+        [pastry]="pastry">
+      </app-pastry>
+    </div>
+</section>

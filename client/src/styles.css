@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .container {
     /* background-size: cover; */
     height: 120px;
@@ -20,6 +26,8 @@
     width: 30rem;
     padding: 3rem;
 }
+
+
 
 @media (max-width: 499px) {
     .form-card {

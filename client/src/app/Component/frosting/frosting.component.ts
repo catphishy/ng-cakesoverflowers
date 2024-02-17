@@ -13,16 +13,7 @@ import { CustomizeService } from '../../Service/customize.service';
   imports: [
     RouterModule
   ],
-  template: `
-  <div class="col">
-  <div class="card card-body border border-0 mb-3 p-6" style="width: 16rem;">
-    <img [src]="frosting.photo" alt="Photo of {{ frosting.photo }}" style="object-fit: fill">
-    <h5 class="text-center text-secondary-emphasis mt-2">{{ frosting.name }}</h5>
-    <p class="text-center text-secondary-emphasis"><small>&#x20B1;{{ frosting.price }}</small></p>
-    <button (click)="customizeCake(frosting.name, frosting.price, 'frosting')" type="button" class="btn btn-primary">Select</button> 
-  </div>
-</div>
-  `,
+  templateUrl: './frosting.component.html',
   styleUrl: './frosting.component.css'
 })
 export class FrostingComponent {
