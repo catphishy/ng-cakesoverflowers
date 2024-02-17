@@ -2,21 +2,21 @@
     <h2 class="text-center align-middle mb-3" style="color: #FFFCF8; font-family:Courgette, cursive;">Custom Cakes</h2>
 </div>
 <section class="p-5">
-    <h3 class="text-secondary-emphasis mb-3">1) Pick your cake base:</h3>
+    <h3 class="text-secondary-emphasis mb-3">1&#41; Pick your cake base:</h3>
     <div class="row row-cols-auto">
         <app-base 
             *ngFor="let base of baseList"
             [base]="base">
         </app-base>
     </div>
-    <h3 class="text-secondary-emphasis mt-3 mb-3">2) Select a frosting:</h3>
+    <h3 class="text-secondary-emphasis mt-3 mb-3">2&#41; Select a frosting:</h3>
     <div class="row row-cols-auto">
         <app-frosting 
             *ngFor="let frosting of frostingList"
             [frosting]="frosting">
         </app-frosting>
     </div>
-    <h3 class="text-secondary-emphasis mt-3 mb-3">3) Addons:</h3>
+    <h3 class="text-secondary-emphasis mt-3 mb-3">3&#41; Addons:</h3>
     <div class="row row-cols-auto">
       <app-addon 
         *ngFor="let addon of addonList"

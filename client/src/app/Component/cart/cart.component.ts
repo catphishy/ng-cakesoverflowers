@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
+import { CartItemComponent } from '../cart-item/cart-item.component';
 
 @Component({
   selector: 'app-cart',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterModule,
+    CartItemComponent
+  ],
   templateUrl: './cart.component.html',
   styleUrl: './cart.component.css'
 })

@@ -15,8 +15,11 @@ h4#item-name.text-secondary-emphasis {
     margin-top: 0.5rem;
 }
 
-div#item-quantity.input-group.mb-3 {
-    width:120px
+div#item-quantity.input-group {
+    width:170px;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 button#button-addon2.btn.btn-primary {
@@ -24,6 +27,22 @@ button#button-addon2.btn.btn-primary {
     /* border: #EBE0D0; */
     /* color: #8E6944; */
     font-weight: bold;
+    border-radius: 0px;
+}
+
+.btn-delete-item {
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+
+.img-delete-item {
+    width: 30px;
+    height: 30px;
+}
+
+input#code.form-control {
+    background-color:#fbf6ee;
     border-radius: 2px;
 }
 /* 
@@ -46,9 +65,10 @@ input#quantity.text-center.text-secondary-emphasis.form-control {
         font-size: 1rem;
     }
 
-    div#item-quantity.input-group.mb-3 {
-        width:80px;
+    div#item-quantity.input-group {
+        width:130px;
         height: 10px;
+        bottom: 2rem;
     }
 
     button#button-addon2.btn.btn-primary {

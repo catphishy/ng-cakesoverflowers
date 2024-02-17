@@ -2,29 +2,120 @@
     <div class="row">
       <div class="col-md-8">
         <div class="card card-body border border-0 mb-3" >
-          <h4 class="text-secondary-emphasis mb-3">Your Cart</h4>
+          <h3 class="text-secondary-emphasis mb-3">Your Cart</h3>
           
-            
+          <!-- Cart Item -->
+          <div class="card card-body border border-0 mb-3 cart">
+            <div class="row">
+              <div class="col-2">
+                <img src="../../../assets/blueberry-cheesecake.jpg" class="cart-img">
+              </div>
+              <div class="col-10">
+                <h5 class="text-secondary-emphasis" id="item-name">Blueberry Cheesecake</h5>
+                <h6 class="text-primary" id="item-price">&#x20B1; 450</h6>
+        
+                <div class="input-group" id="item-quantity">
+                  <button class="btn-delete-item"><img class="img-delete-item" src="../../../assets/trash-regular-72.png"></button>
+                  <button class="btn btn-primary" type="button" id="button-addon2">-</button>
+                  <input class="text-center text-secondary-emphasis form-control" type="number" value="1" id="quantity" style="background-color:#fbf6ee">
+                  <button class="btn btn-primary" type="button" id="button-addon2">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart Item -->
+          <div class="card card-body border border-0 mb-3 cart">
+            <div class="row">
+              <div class="col-2">
+                <img src="../../../assets/blueberry-cheesecake.jpg" class="cart-img">
+              </div>
+              <div class="col-10">
+                <h5 class="text-secondary-emphasis" id="item-name">Custom Cake</h5>
+                <p><small>Flourless Chocolate Base with Dark Chocolate Frosting and Strawberry Addons</small></p>
+                <h6 class="text-primary" id="item-price">&#x20B1; 1200</h6>
+        
+                <div class="input-group" id="item-quantity">
+                  <button class="btn-delete-item"><img class="img-delete-item" src="../../../assets/trash-regular-72.png"></button>
+                  <button class="btn btn-primary" type="button" id="button-addon2">-</button>
+                  <input class="text-center text-secondary-emphasis form-control" type="number" value="1" id="quantity" style="background-color:#fbf6ee">
+                  <button class="btn btn-primary" type="button" id="button-addon2">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart Item -->
+          <div class="card card-body border border-0 mb-3 cart">
+            <div class="row">
+              <div class="col-2">
+                <img src="../../../assets/matcha-tres-leches.jpg" class="cart-img">
+              </div>
+              <div class="col-10">
+                <h5 class="text-secondary-emphasis" id="item-name">Match Tre Leches</h5>
+                <h6 class="text-primary" id="item-price">&#x20B1; 350</h6>
+        
+                <div class="input-group" id="item-quantity">
+                  <button class="btn-delete-item"><img class="img-delete-item" src="../../../assets/trash-regular-72.png"></button>
+                  <button class="btn btn-primary" type="button" id="button-addon2">-</button>
+                  <input class="text-center text-secondary-emphasis form-control" type="number" value="1" id="quantity" style="background-color:#fbf6ee">
+                  <button class="btn btn-primary" type="button" id="button-addon2">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card card-body border border-0 mb-3" >
-          <h6 class="text-secondary-emphasis mb-3">Cart Summary</h6>
+        <div class="card card-body border border-0 mb-3">
+          <h5 class="text-secondary-emphasis mb-3" style="margin-top: 0.6rem;">Order Summary</h5>
           <div class="card card-body border border-0 mb-3 cart">
-              <div class="row">
-                <div class="col-3">
-                  <img src="../../assets/blueberry-cheesecake.jpg" class="cart-img">
-                </div>
-                <div class="col-7">
-                  <h6 class="text-secondary-emphasis">Blueberry Cheesecake</h6>
-                  <p class="text-primary">&#x20B1; 250</p>
-                </div>
-                <div class="col-2">
-                  
-                </div>
+            <div class="row">
+              <div class="col-8">
+                  <p class="text-secondary-emphasis">Subtotal:</p>
               </div>
-              
+              <div class="col-4">
+                  <p class="text-secondary-emphasis">&#x20B1; <span id="subtotal">2000</span></p>
+              </div>
             </div>
+
+            <div class="row">
+              <div class="col-8">
+                  <p class="text-secondary-emphasis">Shipping:</p>
+              </div>
+              <div class="col-4">
+                  <p class="text-secondary-emphasis">&#x20B1; <span id="shipping">150</span></p>
+              </div>
+            </div>
+
+            <div class="row" style="border-bottom:2px solid #EBE0D0">
+              <div class="col-8">
+                  <p class="text-secondary-emphasis">Discount:</p>
+              </div>
+              <div class="col-4">
+                  <p class="text-secondary-emphasis">&#x20B1; <span id="discount">0</span></p>
+              </div>
+            </div>
+
+            <div class="row pt-3">
+              <div class="col-8">
+                <p class="text-secondary-emphasis">Total:</p>
+              </div>
+              <div class="col-4">
+                <p class="text-secondary-emphasis">&#x20B1;<span id="amount">1250</span></p>
+              </div>
+            </div>
+            <div class="input-group mb-3 mt-2">
+              <input type="text" class="form-control" placeholder="Enter Discount Code" id="code">
+              <button class="btn btn-primary" type="button" id="button-addon2">Apply</button>
+            </div>
+          </div>
+
+          <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-secondary" type="button" style="border-radius:5px">CHECK OUT</button>
+          </div>
+
         </div>
       </div>
     </div>
