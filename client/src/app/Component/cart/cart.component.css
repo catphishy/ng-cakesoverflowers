@@ -55,14 +55,10 @@ input#quantity.text-center.text-secondary-emphasis.form-control {
         padding: 0.25rem;
     }
 
-    h4#item-name.text-secondary-emphasis {
+    h5#item-name.text-secondary-emphasis {
         font-size: 1rem;
         margin-bottom: 0px;
         margin-top: 0px;
-    }
-
-    h5#item-price.text-primary {
-        font-size: 1rem;
     }
 
     div#item-quantity.input-group {
