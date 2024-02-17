@@ -61,6 +61,10 @@ input#quantity.text-center.text-secondary-emphasis.form-control {
         margin-top: 0px;
     }
 
+    h6#item-price.text-primary {
+        margin-bottom: 1.5rem;
+    }
+
     div#item-quantity.input-group {
         width:130px;
         height: 10px;
